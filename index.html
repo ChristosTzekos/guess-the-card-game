@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" type="image/x-icon" href="/favicon.png" />
+    <title>Guess the Card!</title>
+  </head>
+  <body>
+    <main>
+      <section class="player">
+        <section class="first-row">
+          <h2 class="name name0">Player 1</h2>
+          <p class="score score-winner" id="score-0">2</p>
+        </section>
+        <h3 class="todo todo0">Make a Guess!</h3>
+        <select name="card-0" id="card-0">
+          <option value="1">1</option>
+          <option value="2">2</option>
+          <option value="3">3</option>
+          <option value="4">4</option>
+          <option value="5">5</option>
+          <option value="6">6</option>
+          <option value="7">7</option>
+          <option value="8">8</option>
+          <option value="9">9</option>
+          <option value="10">10</option>
+          <option value="11">J</option>
+          <option value="12">Q</option>
+          <option value="13">K</option>
+        </select>
+      </section>
+      <section class="player">
+        <section class="first-row">
+          <p class="score score-winner" id="score-1">3</p>
+          <h2 class="name name1">Player 2</h2>
+        </section>
+        <h3 class="todo todo1">Make a Guess!</h3>
+        <select name="card-1" id="card-1">
+          <option value="1">1</option>
+          <option value="2">2</option>
+          <option value="3">3</option>
+          <option value="4">4</option>
+          <option value="5">5</option>
+          <option value="6">6</option>
+          <option value="7">7</option>
+          <option value="8">8</option>
+          <option value="9">9</option>
+          <option value="10">10</option>
+          <option value="11">J</option>
+          <option value="12">Q</option>
+          <option value="13">K</option>
+        </select>
+      </section>
+
+      <button class="btn-start">Start</button>
+      <button class="btn-new-game hidden">New Game!</button>
+      <img src="cards/14.png" alt="card" height="50px" class="card" />
+
+      <p class="match-note hidden">PlayerX wins the game!</p>
+
+      <audio id="card-sound" src="/audio/cards.mp3"></audio>
+      <audio id="win-sound" src="/audio/win.mp3"></audio>
+    </main>
+    <script src="script.js"></script>
+  </body>
+</html>
