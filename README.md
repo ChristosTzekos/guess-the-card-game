@@ -29,12 +29,12 @@ when checking if it has been picked by a player.
 
 The code below is used to represent the four suits
 of each rank with just the rank of the card.
-# actualNumber = Math.ceil(guessedNumber / 4); #
+### actualNumber = Math.ceil(guessedNumber / 4); 
 *guessedNumber stands for the random number from 1 to 52.
 
 That way we achive this mapping:
-1♣(1)    1♦(2)    1♥(3)    1♠(4) -> 1
-1♣(5)    1♦(6)    1♥(7)    1♠(8) -> 2 etc.
+### 1♣(1)    1♦(2)    1♥(3)    1♠(4) -> 1
+### 1♣(5)    1♦(6)    1♥(7)    1♠(8) -> 2 etc. 
 *The numbers inside the round brackets 
 are the real values of each card in the arr = [1,2,..,52]
 
