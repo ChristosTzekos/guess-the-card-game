@@ -11,11 +11,11 @@ ten rounds wins the game.
 An image of each card is saved in "cards" folder
 as shown below.
 #
-1-> ace of clubs, 2-> ace of diamonds
-3-> ace of hearts, 4-> ace of spades
-5-> 2 of clubs, 6-> 2 of diamonds 
-...
-51-> king of hearts, 52-> king of diamonds.
+1-> ace of clubs, 2-> ace of diamonds<br />
+3-> ace of hearts, 4-> ace of spades<br />
+5-> 2 of clubs, 6-> 2 of diamonds <br />
+...<br />
+51-> king of hearts, 52-> king of diamonds.<br />
 #
 The random generation of cards is being accomplished by
 generating a random number from 1 to 52.
@@ -28,15 +28,15 @@ The suit of a card (♣,♦,♥,♠) is not taken in consideration
 when checking if it has been picked by a player.
 
 The code below is used to represent the four suits
-of each rank with just the rank of the card.
-` actualNumber = Math.ceil(guessedNumber / 4); `
+of each rank with just the rank of the card.<br />
+` actualNumber = Math.ceil(guessedNumber / 4); `<br />
 *guessedNumber stands for the random number from 1 to 52.
 
 That way we achive this mapping:
-```
-1♣(1)    1♦(2)    1♥(3)    1♠(4) -> 1
-1♣(5)    1♦(6)    1♥(7)    1♠(8) -> 2 etc. 
-```
+
+1♣(1)  &emsp;   1♦(2) &emsp;   1♥(3)   &emsp;  1♠(4) -> 1<br />
+1♣(5)   &emsp;  1♦(6)  &emsp;   1♥(7)   &emsp;  1♠(8) -> 2 etc. 
+
 *The numbers inside the round brackets 
 are the real values of each card in the arr = [1,2,..,52].
 
