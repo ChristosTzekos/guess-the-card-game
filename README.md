@@ -29,7 +29,7 @@ when checking if it has been picked by a player.
 
 The code below is used to represent the four suits
 of each rank with just the rank of the card.
-### actualNumber = Math.ceil(guessedNumber / 4); 
+` actualNumber = Math.ceil(guessedNumber / 4); `
 *guessedNumber stands for the random number from 1 to 52.
 
 That way we achive this mapping:
