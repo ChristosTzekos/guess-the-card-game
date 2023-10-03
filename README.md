@@ -36,7 +36,7 @@ That way we achive this mapping:
 ### 1♣(1)    1♦(2)    1♥(3)    1♠(4) -> 1
 ### 1♣(5)    1♦(6)    1♥(7)    1♠(8) -> 2 etc. 
 *The numbers inside the round brackets 
-are the real values of each card in the arr = [1,2,..,52]
+are the real values of each card in the arr = [1,2,..,52].
 
 
 
