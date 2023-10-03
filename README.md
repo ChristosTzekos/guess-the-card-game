@@ -1,5 +1,5 @@
-# guess-the-card-game
-
+# Guess The Card Game
+### JavaScript, HTML, CSS ###
 It's a two-player, ten round card game.
 Each player picks acard and as a round starts,
 cards are randomly generated anddisplayed on screen 
